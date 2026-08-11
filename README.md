@@ -1,4 +1,4 @@
-# Smooth Life in C(PU)
+# Smooth Life in C<sup>pu<sup/>
 
 A small C implementation of SmoothLife.
 
@@ -66,7 +66,7 @@ make clean
 
 The grid contains floating-point values between `0.0` and `1.0`.
 
-Each cell is evaluated using an inner circular neighborhood and an outer ring. The resulting neighborhood values are passed through the smooth transition functions from the SmoothLife model.
+Each cell is evaluated using an inner circular neighborhood (gng) and an outer ring (da hood). The resulting neighborhood values are passed through the smooth transition functions from the SmoothLife model.
 
 The grid wraps around at the edges.
 
@@ -90,7 +90,7 @@ an = 0.028
 am = 0.147
 ```
 
-Fuck around and find out type shit.
+Fuck around and find out type shit Desu wa.
 
 ## Performance
 
