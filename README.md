@@ -9,6 +9,8 @@ Stephan Rafler, 2011.
 
 [Paper on arXiv](https://arxiv.org/abs/1111.1567)
 
+![Image](https://i.redd.it/c61abitmjzya1.jpg)
+
 ## Build
 
 Requires:
@@ -49,20 +51,29 @@ animation.mp4
 ```
 
 at 30 FPS using FFmpeg.
+The Video is best enjoyed with a bucket of Popcorn (preferably caramel). 
 
 To start over:
 
 ```bash
-make rebuild-run-video
+make rebuild
 ```
 
-To remove generated files:
+To remove all generated files:
 
 ```bash
 make clean
 ```
 
+To remove all generated files sans the video:
+
+```bash
+make clean-not-video
+```
+
 ## Simulation
+
+![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNiv3HO1kK5uOrRKDo1nT9sfUQrNEwYTranKo6EYYXroSe0Bbn3U_EYsU&s=10)
 
 The grid contains floating-point values between `0.0` and `1.0`.
 
@@ -101,4 +112,3 @@ It runs on the CPU. Need i say more?
 There is no God.
 
 End my Suffering.
-
